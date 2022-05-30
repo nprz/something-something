@@ -91,7 +91,7 @@ export default function CreditCard({ setComplete }) {
           warningText="You must provide a name"
         />
 
-        <div className="flex justify-between flex-wrap-m">
+        <div className="flex flex-wrap-med justify-between">
           <div className="w-100 pr2-l">
             <StyledInput
               label="Expiration date (MM / YYYY)"
